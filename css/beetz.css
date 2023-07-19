@@ -1,0 +1,864 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(../assets/fonts/static/Oswald-Regular.ttf);
+    src: url(../assets/fonts/static/Oswald-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../assets/fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(../assets/fonts/Quicksand/Quicksand-Regular.ttf);
+    src: url(../assets/fonts/Quicksand/Quicksand-Medium.ttf);
+}
+
+.Course{
+    font-family: 'Oswald';
+    color: #192CD3 !important;
+}
+
+.list{
+    font-family: 'Quicksand';
+}
+
+/* navigation bar styles */
+
+nav{
+    position: fixed !important;
+    background-color: #faf8fc;
+    width: 100%;
+    margin-top: -240px !important;
+    /* margin-bottom: 0px; */
+    z-index: 2;
+}
+
+.navbar-toggler{
+    padding: 0px !important;
+}
+
+@media screen and (max-width: 991px){
+    nav{
+        position: fixed !important;
+        background-color: #faf8fc;
+        width: 100%;
+        padding: 0px !important;
+        margin-top: -140px !important;
+        z-index: 2;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .nav-logo{
+        width: 50%;
+    }
+}
+
+#myDiv{
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    #myDiv{
+        display: none;
+    }
+}
+
+.nav-link:focus-within {
+    color: #192CD3 !important;
+}
+
+.nav-link{
+    font-size: 19px !important;
+    padding-top: 15px !important;
+}
+
+@media screen and (max-width: 1199px){
+    .nav-link{
+        font-size: 15px !important;
+    }
+}
+
+.nav-link2{
+    font-size: 15px !important;
+    text-decoration: none;
+    color: #696969;
+    font-weight: normal !important;
+}
+
+.login-1 {
+    color: #669E00 !important;
+    border: 1px solid #669E00 !important;
+}
+
+
+input {
+    border: 1px solid #212529;
+}
+
+.login-2{
+    background-color: #669E00;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-3{
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .login-3{
+        display: block;
+        background-color: #669E00;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+.mobile-nav{
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .mobile-nav{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .login-link{
+        color: #669E00;
+        text-decoration: underline;
+
+    }
+}
+
+.booking-btn{
+    background-color: #192CD3;
+    color: #FFFFFF !important;
+    font-size: 20px !important;
+    border-radius: 7px;
+    border: none;
+}
+
+@media screen and (max-width: 1199px){
+    .booking-btn{
+        font-size: 15px !important;
+    }
+}
+
+/* end of navigation bar styles */
+
+.first-section{
+    margin-top: 240px;
+}
+
+@media screen and (max-width: 991px){
+    .first-section{
+        margin-top: 140px;
+        text-align: center;
+
+    }
+}
+
+.first-heading{
+    font-family: 'Poppins';
+    font-size: 80px;
+    font-weight:bolder !important;
+    color: #192CD3;
+}
+
+@media screen and (max-width: 991px){
+    .first-heading{
+        font-size: 40px;
+        font-weight: normal !important;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .image-container{
+        margin: auto;
+        width: 300px !important;
+    }
+}
+
+.girl-image{
+    background-image: url(../assets/images/girl-headset.png);
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    width: 750px !important;
+    height: 600px;
+    margin-top: -360px;
+    margin-left: 400px !important;
+}
+
+@media screen and (max-width: 991px){
+    .girl-image{
+        background-position: center !important;
+        background-size: 100% !important;
+        width: 280px !important;
+        height: 220px !important;
+        margin: auto !important;
+    }
+}
+
+.booking-ticket-btn{
+    background-color: #FFFFFF;
+    color: #192CD3 !important;
+    font-family: 'Quicksand';
+    font-size: 18px !important;
+    font-weight: bold;
+    border-radius: 7px;
+    border-color: #192CD3;
+}
+
+@media screen and (max-width: 991px){
+    .booking-ticket-btn{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.music-icon1{
+    background-image: url(../assets/images/music_note.png);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: -380px;
+    margin-left: 920px;
+}
+
+@media screen and (max-width: 991px){
+    .music-icon1{
+        display: none;
+    }
+}
+
+.music-icon2{
+    background-image: url(../assets/images/music_note.png);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: -350px;
+    margin-left: 970px;
+}
+
+@media screen and (max-width: 991px){
+    .music-icon2{
+        background-image: url(../assets/images/music_note.png);
+        background-size: 50%;
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+}
+
+.music-icon3{
+    background-image: url(../assets/images/music_note.png);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+@media screen and (max-width: 991px){
+    .music-icon3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .background-design{
+        display: none;
+    }
+}
+
+.second-section{
+    margin-top: 300px;
+}
+
+.stage-background{
+    background-color: #212529;
+}
+
+.stage{
+    background-image: url(../assets/images/gallery.png);
+    background-size: cover;
+    background-position: center;
+    width: 450px !important;
+    height: 320px !important;
+}
+
+@media screen and (max-width: 991px){
+    .stage{
+        background-image: url(../assets/images/gallery.png);
+        background-position: center;
+        background-size: cover;
+        width: 280px !important;
+        height: 200px !important;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .stage1{
+        margin: auto;
+    }
+}
+
+.paragraph-1{
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 991px){
+    .paragraph-1{
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 600 !important;
+    text-align: center;
+}
+}
+
+.paragraph-2{
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 300;
+    color: #192CD3;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991px){
+    .paragraph-2{
+        font-family: 'Poppins';
+        font-size: 19px;
+        color: #192CD3;
+        line-height: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+.paragraph-3{
+    font-family: 'Quicksand';
+    font-size: 18px;
+    width: 600px;
+}
+
+@media screen and (max-width: 991px){
+    .paragraph-3{
+        font-family: 'Poppins';
+        font-size: 12px;
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+.booking-ticket-btn2{
+    color: #FFFFFF;
+    background-color: #192CD3 !important;
+    font-family: 'Quicksand';
+    font-size: 17px !important;
+    font-weight: 400;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 50px !important;
+    margin: auto !important;
+}
+
+@media screen and (max-width: 991px){
+    .booking-ticket-btn2{
+        font-size: 13px !important;
+        text-align: center;
+        border-radius: 18px;
+        padding: 10px 30px !important;
+    }
+}
+
+.yemi{
+    background-image: url(../assets/images/yemi.png);
+    background-size: cover;
+    width: 380px;
+    height: 400px;
+    margin: 0px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 991px){
+    .yemi{
+        width: 250px;
+        height: 300px;
+        margin: auto;
+        border-radius: 15px;
+    }
+}
+
+.davido{
+    background-image: url(../assets/images/davido.png);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    margin: 70px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 991px){
+    .davido{
+        width: 250px;
+        height: 300px;
+        margin: auto;
+        border-radius: 15px;
+    }
+}
+
+.rema{
+    background-image: url(../assets/images/rema.png);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    margin: 70px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 991px){
+    .rema{
+        width: 250px;
+        height: 300px;
+        margin: auto;
+        border-radius: 15px;
+    }
+}
+
+.Professionals .upcoming{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.artists{
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: lighter;
+    color: #192CD3;
+}
+
+@media screen and (max-width: 991px){
+    .artists{
+        font-family: 'Poppins';
+        font-size: 27px;
+        font-weight: lighter;
+        color: #192CD3;
+    }
+}
+
+.best{
+    font-family: 'Quicksand';
+    line-height: 8px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 991px){
+    .best{
+        font-family: 'Quicksand';
+        line-height: 8px;
+        font-size: 18px;
+    }
+}
+
+.best1{
+    line-height: 8px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 991px){
+    .best1{
+        line-height: 8px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+}
+
+.stage-image{
+    background-image: url(../assets/images/davido-stage.png);
+    background-size: cover;
+    background-position: center;
+    width: 680px;
+    height: 420px;
+    margin-left: -100px;
+}
+
+@media screen and (max-width: 991px){
+    .stage-image{
+        width: 270px;
+        height: 170px;
+        margin-left: 0px;
+        margin: auto;
+    }
+}
+
+.concert-heading{
+    color: #192CD3;
+    font-family: 'Poppins';
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+    width: 100px;
+    margin: 0px !important;
+}
+
+.concert-heading-sm{
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .concert-heading-sm{
+        display: block;
+        color: #192CD3;
+        font-family: 'Poppins';
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 20px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .concert-heading{
+        display: none;
+    }
+}
+
+.date, .time{
+    font-family: 'Quicksand';
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 991px){
+    .date, .time{
+        display: none;
+        margin-top: 0px;
+    }
+}
+
+.date-sm, .time-sm{
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .date-sm, .time-sm{
+        display: block;
+        font-family: 'Quicksand';
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 18px;
+    }
+}
+
+.date-expand, .time-expand{
+    font-family: 'Quicksand';
+    font-size: 17px;
+    font-weight: 100 !important;
+    text-align: left !important;
+}
+
+@media screen and (max-width: 991px){
+    .date-expand, .time-expand{
+        font-size: 13px;
+    }
+}
+
+.rema-image{
+    background-image: url(../assets/images/rema-stage.png);
+    background-size: cover;
+    background-position: center;
+    width: 680px;
+    height: 420px;
+}
+
+@media screen and (max-width: 991px){
+    .rema-image{
+        width: 270px;
+        height: 170px;
+        margin-left: 0px;
+        margin: auto;
+    }
+}
+
+.rema-heading{
+    color: #192CD3;
+    font-family: 'Poppins';
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+    width: 100px;
+    margin-left: 200px !important;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 991px){
+    .rema-heading{
+        display: none;
+    }
+}
+
+.rema-heading-sm{
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .rema-heading-sm{
+        display: block;
+        color: #192CD3;
+        font-family: 'Poppins';
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 20px;
+    }
+}
+
+.rema-date, .rema-time{
+    font-family: 'Quicksand';
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 18px;
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 991px){
+    .rema-date, .rema-time{
+        display: none;
+
+    }
+}
+
+.rema-date-sm, .rema-time-sm{
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .rema-date-sm, .rema-time-sm{
+        display: block;
+        font-family: 'Quicksand';
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 18px;
+    }
+}
+
+.rema-date-expand, .rema-time-expand{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    font-weight: 100 !important;
+    text-align: left !important;
+}
+
+.large-screen{
+    display: block;
+}
+
+@media screen and (max-width: 991px){
+    .large-screen{
+        display: none;
+    }
+}
+
+.small-screen{
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .small-screen{
+        display: block;
+    }
+}
+
+.yemi-image{
+    background-image: url(../assets/images/yemi-stage.png);
+    background-size: cover;
+    background-position: center;
+    width: 680px;
+    height: 420px;
+    margin-left: -100px;
+}
+
+@media screen and (max-width: 991px){
+    .yemi-image{
+        width: 270px;
+        height: 170px;
+        margin-left: 0px;
+        margin: auto;
+    }
+}
+
+.yemi-heading{
+    color: #192CD3;
+    font-family: 'Poppins';
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+    margin: 0px !important;
+    margin-top: 100px !important;
+}
+
+@media screen and (max-width: 991px){
+    .yemi-heading{
+        display: none;
+    }
+}
+
+.artists2{
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: lighter;
+    color: #192CD3;
+    margin-bottom: 0px !important;
+}
+
+@media screen and (max-width: 991px){
+    .artists2{
+        font-family: 'Poppins';
+        font-size: 27px;
+        font-weight: lighter;
+        color: #192CD3;
+    }
+}
+
+.Testimonials-words{
+    font-size: 15px;
+    background-color: #192CD31A;
+    border-radius: 5px;
+
+
+}
+
+.Testimonials-words:hover{
+    font-size: 15px;
+    margin-top: 50px;
+    background-color: #0b1bad33;
+}
+
+@media screen and (max-width: 991px){
+    .Testimonials-words:hover{
+        font-size: 15px;
+        margin-top: 0px;
+        background-color: #192CD31A;
+    }
+}
+
+.Testimonials-container{
+    padding: 50px !important;
+}
+
+@media screen and (max-width: 991px){
+    .Testimonials-container{
+        padding: 10px !important;
+    }
+}
+
+.footer-list{
+    text-decoration: none;
+}
+
+.list-heading{
+    font-family: 'Oswald';
+    font-size: 17px;
+    margin-bottom: 7px;
+
+}
+
+.list-id{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Quicksand';
+    line-height: 20px;
+}
+
+.list-id:hover{
+    color: #b5b3b3;
+}
+
+.footer-box{
+    padding: 10px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 991px){
+    .footer-box{
+    padding-bottom: 20px;
+    margin-left: 0px !important;
+    width: 100% !important;
+}
+}
+
+.footer-box2{
+    padding: 10px;
+    margin-left: 40px;
+    width: 150px !important;
+}
+
+@media screen and (max-width: 991px){
+    .footer-box2{
+    padding-bottom: 10px;
+    margin-left: 0px !important;
+    width: 100% !important;
+}
+}
+
+.footer-box3{
+    padding: 10px;
+    margin-left: 230px !important;
+    width: 200px !important;
+}
+
+@media screen and (max-width: 991px){
+    .footer-box3{
+    padding: 0px;
+    margin-left: 0px !important;
+    width: 100% !important;
+}
+}
+
+.telephone{
+    width: 17px;
+    height: 17px;
+    padding-right: 5px;
+}
+
+.email{
+    width: 20px;
+    height: 12px;
+    padding-right: 5px;
+}
+
+.location{
+    width: 17px;
+    height: 18px;
+    padding-right: 5px;
+}
